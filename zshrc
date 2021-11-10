@@ -113,7 +113,8 @@ alias ls='lsd -la --group-dirs first'
 alias cat='bat'
 alias tree='lsd --tree'
 alias vim='nvim'
-alias dotdrop='dotdrop --cfg=~/my-dotfiles/config.yaml'
+alias dotdrop='dotdrop --cfg=~/my-dotfiles/dotfiles/config.yaml'
+alias dotfiles='cd ~/my-dotfiles/dotfiles'
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

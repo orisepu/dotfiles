@@ -1,0 +1,30 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: .
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  d_qtile:
+    src: .config/qtile
+    dst: ~/.config/qtile
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  d_xsettingsd:
+    src: config/xsettingsd
+    dst: ~/.config/xsettingsd
+profiles:
+  oriol-gr8ii:
+    dotfiles:
+    - f_zshrc
+    - d_qtile
+    - d_alacritty
+    - d_xsettingsd
